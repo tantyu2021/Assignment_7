@@ -78,7 +78,7 @@ var is_weekend =  function(date1){
        {
         return "weekend";
         } else {
-          return "still working"
+          return "still working, not a weekend"
         }
 }
 console.log(is_weekend('Mar 15, 1998'));

@@ -17,10 +17,14 @@ console.log('Your name has ', numX , ' characters');
 //console.log(t + ' letter is ' + numLetter);
 
 var nameL = prompt('Please, enter your name');
-var indexLetter = prompt('Please, enter a number from 1 to ' + nameL.length);//var nameNum = nameL.length;
-alert(indexLetter + ' letter is ' + nameL[indexLetter]);
+var m = prompt('Please, enter a number from 1 to ' + nameL.length);//var nameNum = nameL.length;--var numLetter = Number(m+1);
+alert(m + ' letter is ' + nameL[m]);
+console.log(m + ' letter is ' + nameL[m]);
 
-console.log(indexLetter + ' letter is ' + nameL[indexLetter]);
+// nameL = prompt('- enter your name');
+// var n = prompt('- enter a number from 1 to ' + nameL.length);
+// alert(n, ' letter is ' + nameL.charAt(n));
+// console.log(n, ' letter is ' , nameL.charAt(n));
 
 //STEP 3
 var nameFirst = prompt('Enter your first name');
@@ -42,6 +46,10 @@ var indexSt5 = text.lastIndexOf("fox");
 alert('In the sentence the LAST index of the word \'fox\' is ' + indexSt5);
 console.log('In the sentence the LAST index of the word \'fox\' is ' + indexSt5);
 
+var indexSt5 = text.lastIndexOf("the");
+alert('In the sentence the LAST index of the word \'the\' is ' + indexSt5);
+console.log('In the sentence the LAST index of the word \'the\' is ' + indexSt5);
+
 //STEP 6
 text = 'The quick brown fox jumps over the lazy dog';
 var nameFull = prompt('Please, enter your full name');
@@ -49,8 +57,13 @@ alert(text.replace('the lazy dog', nameFull));
 console.log(text.replace('the lazy dog', nameFull));
 
 //STEP 7
+text = 'The quick brown fox jumps over the lazy dog';
 var wordFromString = prompt('Please, enter any word from this text: \n"The quick brown fox jumps over the lazy dog');
-alert(text.match(/wordFromString/g));
+alert( wordFromString);
+// alert(text.match/(wordFromString/g));
+// console.log(text.match/(wordFromString/g));
+// var anyWord = prompt('Please, enter any word');
+// alert(anyWord);
 
 //STEP 8
 var old_string = 'The quick brown fox jumps over the lazy dog';
@@ -62,7 +75,6 @@ alert(new_string);
 var textUp = '            THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG          ';
 alert(textUp.trim().toLowerCase());
 // var textUpTrim = textUp.trim();
-// alert(textUpTrim.toLowerCase());
 
 textUp = 'THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG';
 var cleanText = textUp[0].toUpperCase() + textUp.slice(1).toLowerCase();
