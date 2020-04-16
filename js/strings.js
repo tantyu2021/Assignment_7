@@ -14,7 +14,7 @@ console.log('Your name has ', numX , ' characters');
 // var numLetter = t + 1;
 // alert(t + ' letter is ' + numLetter);
 
-console.log(t + ' letter is ' + numLetter);
+//console.log(t + ' letter is ' + numLetter);
 
 var nameL = prompt('Please, enter your name');
 var indexLetter = prompt('Please, enter a number from 1 to ' + nameL.length);//var nameNum = nameL.length;
