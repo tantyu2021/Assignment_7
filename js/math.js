@@ -15,11 +15,17 @@ alert(Math.floor(x));
 
 //STEP 4
 numbers = prompt('Enter any 5 numbers. Please, delimit each number with comma. Example: 1,2,3,4,5 ');
-numberth = numbers.trim().split().Number;
+numberth = numbers.trim().split(',').Number;
 console.log('The largest number here is ', Math.max(numbers),'. The smallest number here is ',Math.min(numbers), '.'  );
 console.log(numbers);
-// alert(Math.max(numbers));
+alert(Math.max(numbers));
 // alert(Math.min(numbers));
+var a = "1,2,3,4";
+var b = Array.from(a.split(','),Number);
+console.log(b);
+console.log(Math.max(b));
+alert(Math.max(b));
+alert(Math.min(b));
 
 //STEP 5 -find the square root of the number
 var num = prompt("Enter a number and we will find the square root");

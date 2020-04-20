@@ -62,8 +62,7 @@ var wordFromString = prompt('Please, enter any word from this text: \n"The quick
 alert( wordFromString);
 // alert(text.match/(wordFromString/g));
 // console.log(text.match/(wordFromString/g));
-// var anyWord = prompt('Please, enter any word');
-// alert(anyWord);
+
 
 //STEP 8
 var old_string = 'The quick brown fox jumps over the lazy dog';
